@@ -11,7 +11,7 @@ describe("My Bitso QA Challenge", function(){
             // You must  automate the following flow:
     
             // 1. Navigate to https://devmalta.bitso.com/register
-            // cy.visit("https://devmalta.bitso.com/register")
+            cy.visit("https://devmalta.bitso.com/register")
     
             // 2. Create two accounts one using Mexico as a country
             // 2. a) Select Country as Mexico
